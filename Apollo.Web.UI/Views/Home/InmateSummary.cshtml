@@ -1,0 +1,99 @@
+﻿@using Kendo.Mvc.Extensions
+@using Kendo.Mvc.UI
+
+@model Apollo.Web.UI.Models.InmateSummaryViewModel
+
+<table border="1" style ="vertical-align: top;">
+    <tr><td colspan="4">
+          <h4 style="background-color:dimgray; color:white;">
+                @Html.DisplayFor(model => model.LastName),&nbsp;
+                @Html.DisplayFor(model => model.FirstName),&nbsp;
+                @Html.DisplayFor(model => model.MiddleName)
+            </h4>      
+        </td></tr>
+  <tr>
+    <th rowspan="4" colspan ="2" style="width:50%; text-align:center; ">           
+        <img src="~/Content/images/tempImage.jpg" class="img-polaroid" />          
+    </th>
+    <th style="width:16%">SSN:</th>
+    <td>@Html.DisplayFor(model => model.SSN)</td>
+  </tr>
+  <tr>
+    <th style="width:16%;">InmateID:</th>
+        <td>@Html.DisplayFor(model => model.InmateID)</td>
+  </tr>
+ <tr>
+    <th style="width:16%;">Property#:</th>
+        <td>@Html.DisplayFor(model => model.PropertyNumber)</td>
+  </tr>
+ <tr>
+    <th style="width:16%;">Housing:</th>
+        <td>@Html.DisplayFor(model => model.Housing)</td>
+  </tr>
+     <tr>
+        <th style="width:16%;">Sex:</th>
+        <td>@Html.DisplayFor(model => model.Sex)</td>
+        <th style="width:16%;">Height:</th>
+        <td>@Html.DisplayFor(model => model.Height)</td>
+    </tr>
+    <tr>
+        <th>Race:</th>
+        <td>@Html.DisplayFor(model => model.Race)</td>
+        <th>Weight:</th>
+        <td>@Html.DisplayFor(model => model.Weight)</td>
+    </tr>
+    <tr>
+        <th>Age:</th>
+        <td>@Html.DisplayFor(model => model.DOB)</td>
+        <th>DOB:</th>
+        <td>@Html.DisplayFor(model => model.DOB)</td>
+    </tr>
+</table>
+
+@*<table border = "1">
+    <tr>
+        <td colspan="2"  rowspan="4" style="text-align: center; vertical-align: top;">
+            <img src="~/Content/images/tempImage.jpg" class="img-polaroid" />         
+        </td>
+    </tr>
+     <tr>
+        <td colspan="2" style="text-align: center; vertical-align: top;">
+            <h4 style="background-color:dimgray; color:white;">
+                @Html.DisplayFor(model => model.LastName),&nbsp;
+                @Html.DisplayFor(model => model.FirstName),&nbsp;
+                @Html.DisplayFor(model => model.MiddleName)
+            </h4>
+        </td>
+    </tr>
+    <tr>
+        <th>SSN:</th>
+        <td>@Html.DisplayFor(model => model.SSN)</td>
+        <th>InmateID:</th>
+        <td>@Html.DisplayFor(model => model.InmateID)</td>
+    </tr>
+    <tr>
+        <th>Prop#:</th>
+        <td>@Html.DisplayFor(model => model.PropertyNumber)</td>
+        <th>Housing:</th>
+        <td>@Html.DisplayFor(model => model.Housing)</td>
+    </tr>
+    <tr>
+        <th>Sex:</th>
+        <td>@Html.DisplayFor(model => model.Sex)</td>
+        <th>Height:</th>
+        <td>@Html.DisplayFor(model => model.Height)</td>
+    </tr>
+    <tr>
+        <th>Race:</th>
+        <td>@Html.DisplayFor(model => model.Race)</td>
+        <th>Weight:</th>
+        <td>@Html.DisplayFor(model => model.Weight)</td>
+    </tr>
+    <tr>
+        <th>Age:</th>
+        <td>@Html.DisplayFor(model => model.DOB)</td>
+        <th>DOB:</th>
+        <td>@Html.DisplayFor(model => model.DOB)</td>
+    </tr>
+</table>*@
+

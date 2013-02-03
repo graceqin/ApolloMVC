@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="aspnet-Apollo.Web.UI-20130113134053" Class="MasterDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CHOUDING\SQLEXPRESS2012;Initial Catalog=aspnet-Apollo.Web.UI-20130113134053;Integrated Security=True;User ID=apollo" SettingsObjectName="Apollo.Data.Properties.Settings" SettingsPropertyName="aspnet_Apollo_Web_UI_20130113134053ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MasterData" Member="MasterDatas">
+    <Type Name="MasterData">
+      <Column Name="masterId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="middleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

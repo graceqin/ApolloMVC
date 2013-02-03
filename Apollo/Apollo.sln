@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Data", "..\Apollo.Data\Apollo.Data.csproj", "{A92DBAC0-7012-4988-B604-1BF9F7A22B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Web.UI", "..\Apollo.Web.UI\Apollo.Web.UI.csproj", "{5AE67C65-B2B7-41F4-8146-B6030FF6588F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Web.UI.Tests", "..\Apollo.Web.UI.Tests\Apollo.Web.UI.Tests.csproj", "{3907CEE1-A467-4A0F-AF4D-D66BB74A344C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92DBAC0-7012-4988-B604-1BF9F7A22B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92DBAC0-7012-4988-B604-1BF9F7A22B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92DBAC0-7012-4988-B604-1BF9F7A22B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92DBAC0-7012-4988-B604-1BF9F7A22B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE67C65-B2B7-41F4-8146-B6030FF6588F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE67C65-B2B7-41F4-8146-B6030FF6588F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE67C65-B2B7-41F4-8146-B6030FF6588F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE67C65-B2B7-41F4-8146-B6030FF6588F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3907CEE1-A467-4A0F-AF4D-D66BB74A344C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3907CEE1-A467-4A0F-AF4D-D66BB74A344C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3907CEE1-A467-4A0F-AF4D-D66BB74A344C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3907CEE1-A467-4A0F-AF4D-D66BB74A344C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
